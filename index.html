@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>ACORDEON</title>
+        <script src='https://code.jquery.com/jquery-3.6.0.min.js'></script>
+        <script src="https://kit.fontawesome.com/2ee0245f3d.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="estilo.css" />
+    </head>
+
+    <body>
+        <h1>Frequently Asked Questions</h1>
+        <br />
+        <br />
+        <br />
+        <div class="acordeon">
+            <div class="acordeon_titulo titulo1">
+                <h2>Do you provide any scripts whith your templates?</h2>
+                <div class="iconos">
+                    <i class="fa-solid fa-plus mas1"></i>
+                    <i class="fa-solid fa-minus menos1"></i>
+                </div>
+            </div>
+            <p class="acordeon_contenido contenido1">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi modi perferendis aliquid odio ullam similique ea illum saepe quidem consequuntur excepturi minus, accusamus aperiam tempore? Harum sapiente odit aperiam inventore?
+            </p>
+        </div>
+        <div class="acordeon">
+            <div class="acordeon_titulo titulo2">
+              <h2>What do i receive when i order a template</h2>
+              <div class="iconos">
+                <i class="fa-solid fa-plus mas2"></i>
+                <i class="fa-solid fa-minus menos2"></i>
+              </div>
+            </div>
+            <p class="acordeon_contenido contenido2">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, ex,
+              eligendi. Iste, beatae error magni a sequi sit voluptatum obcaecati
+              recusandae, nisi ipsa laboriosam vero cupiditate vel molestiae
+              reiciendis itaque Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel ipsa quisquam accusamus porro
+              quos, ipsam, enim eius ex hic harum eligendi, inventore ducimus aspernatur repellendus eveniet sequi sint autem
+              iste.
+            </p>
+          </div>
+          <div class="acordeon">
+            <div class="acordeon_titulo titulo3">
+              <h2>In what formats are your templates available</h2>
+              <div class="iconos">
+                <i class="fa-solid fa-plus mas3"></i>
+                <i class="fa-solid fa-minus menos3"></i>
+              </div>
+            </div>
+            <p class="acordeon_contenido contenido3">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, ex,
+              eligendi. Iste, beatae error magni a sequi sit voluptatum obcaecati
+              recusandae, nisi ipsa laboriosam vero cupiditate vel molestiae
+              reiciendis itaque Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel ipsa quisquam accusamus porro
+              quos, ipsam, enim eius ex hic harum eligendi, inventore ducimus aspernatur repellendus eveniet sequi sint autem
+              iste.
+            </p>
+          </div>
+          <div class="acordeon">
+            <div class="acordeon_titulo titulo4">
+              <h2>What am i allowed to do with the template?</h2>
+              <div class="iconos">
+                <i class="fa-solid fa-plus mas4"></i>
+                <i class="fa-solid fa-minus menos4"></i>
+              </div>
+            </div>
+            <p class="acordeon_contenido contenido4">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, ex,
+              eligendi. Iste, beatae error magni a sequi sit voluptatum obcaecati
+              recusandae, nisi ipsa laboriosam vero cupiditate vel molestiae
+              reiciendis itaque Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel ipsa quisquam accusamus porro
+              quos, ipsam, enim eius ex hic harum eligendi, inventore ducimus aspernatur repellendus eveniet sequi sint autem
+              iste.
+            </p>
+          </div>
+        <script>
+            //ACORDEON
+        
+            $(".titulo1").click(function () {
+              $(".contenido1").slideToggle();
+              $(".mas1").toggleClass("desaparecer");
+            });
+        
+            $(".titulo2").click(function () {
+              $(".contenido2").slideToggle();
+              $(".mas2").toggleClass("desaparecer");
+            });
+        
+            $(".titulo3").click(function () {
+              $(".contenido3").slideToggle();
+              $(".mas3").toggleClass("desaparecer");
+            });
+
+            $(".titulo4").click(function() {
+                $(".contenido4").slideToggle();
+                $(".mas4").toggleClass("desaparecer");
+            });
+          </script>
+
+    </body>
+</html>

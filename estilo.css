@@ -1,0 +1,60 @@
+h1{
+    text-align: center;
+}
+
+.acordeon {
+    width: 50%;
+    margin: auto;
+}
+.acordeon_titulo {
+    color: black;
+    background: white;
+    border: 1px white solid;
+    padding: 10px;
+    font-size: 14px;
+    height: 20px;
+    margin: 0;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.acordeon_contenido {
+    display: none;
+    margin: 0;
+    background: white;
+    padding: 1em 1em 1.5em;
+}
+
+.iconos{
+    position: relative;
+    padding: 0;
+    width: 15px;
+    height: 15px;
+}
+
+.iconos i{
+    padding: 3px;
+    background: blue;
+    color: white;
+    border-radius: 5px;
+}
+
+.mas1, .mas2, .mas3, .mas4{
+    position: absolute;
+    z-index: 4;
+    top: 0;
+    right: 0;
+    transition: all .3s;
+}
+
+.menos1, .menos2, .menos3, .menos4{
+    position: absolute;
+    z-index: 3;
+    top: 0px;
+    right: 0px;
+}
+.desaparecer{
+    opacity: 0;
+}
